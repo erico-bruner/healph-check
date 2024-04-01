@@ -57,6 +57,11 @@ const RoundBox = styled.div`
   display: flex;
   justify-content: center;
   align-items: center; 
+
+  @media (min-width: 768px) {
+    width: 20%;
+    height: 15%;
+  }
 `;
 
 const Online = styled.p`
@@ -73,7 +78,11 @@ const Offline = styled.p`
 
 const Text = styled.p`
   color: #bebebe; 
-  font-size: 5vw;
+  font-size: 150%;
   font-weight: 400;
   margin-bottom: 2vh;
+
+  @media (min-width: 768px) {
+    font-size: 150%;
+  }
 `;
